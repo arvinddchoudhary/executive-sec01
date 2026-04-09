@@ -4601,32 +4601,3 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
-
-# DATABASE_URL=postgresql+asyncpg://user:password@localhost:5432/dbname
-DATABASE_URL=sqlite+aiosqlite:///./dev.db
-# GROQ_API_KEY=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
-OPENAI_API_KEY=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
-
-SMTP_HOST=smtp.gmail.com
-SMTP_PORT=587
-SMTP_USER=arvindchoudhary0809@gmail.com
-SMTP_PASS=rzdq glob wkqs nyob
-
-GMAIL_USER=arvindchoudhary0809@gmail.com
-GMAIL_APP_PASSWORD=rzdq glob wkqs nyob
-
-JWT_SECRET=arvind
-JWT_ALGORITHM=HS256
-JWT_EXPIRE_MINUTES=60
-
-GOOGLE_CLIENT_ID=742214994668-iih3pqkuo4pu7ir0nm163bdvs17uvijg.apps.googleusercontent.com
-GOOGLE_CLIENT_SECRET=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
-GOOGLE_REDIRECT_URI=http://localhost:8000/auth/gmail/callback
-
-STRIPE_SECRET_KEY=sk_test_your_stripe_secret_key
-STRIPE_WEBHOOK_SECRET=whsec_your_webhook_secret
-STRIPE_MONTHLY_PRICE_ID=price_your_monthly_price_id
-STRIPE_YEARLY_PRICE_ID=price_your_yearly_price_id
-
-FRONTEND_URL=http://localhost:3000
-
